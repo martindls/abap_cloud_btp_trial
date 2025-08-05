@@ -46,6 +46,7 @@ CLASS zcl_ms_arithmetic_calculations IMPLEMENTATION.
 **********************************************************************
 
     out->write( result ).
+    out->write( result * 2 ).
 
   ENDMETHOD.
 ENDCLASS.
