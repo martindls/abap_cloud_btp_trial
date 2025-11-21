@@ -1,25 +1,13 @@
-CLASS zcl_ms_hello_world DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_MS_HELLO_WORLD definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES if_oo_adt_classrun .
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_ms_hello_world IMPLEMENTATION.
-
-
-  METHOD if_oo_adt_classrun~main.
-
-    out->write( 'Hello World' ).
-
-  ENDMETHOD.
-
+CLASS ZCL_MS_HELLO_WORLD IMPLEMENTATION.
 ENDCLASS.
